@@ -1,129 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML e CSS</title>
-    <style>
-        /* * {
-            border: 1px solid red;
-            background-color: rgba(255, 0, 0, 0.15);
-        } */
-    </style>
+    <title>Desenvolvedor Web Jr</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.0/css/all.css"
+        integrity="sha384-ekOryaXPbeCpWQNxMwSWVvQ0+1VrStoPJq54shlYhR8HzQgig1v5fas6YgOqLoKz" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<body style="">
+<body>
     <header>
-        <h1>Programador Web Jr</h1>
-        <ul type="none">
-            <li>Mateus Alcântara</li>
-            <li>
-                <a href="tel:+5513991420002">+55 13 99142 0002</a>
-            </li>
-            <li>
-                <a href="https://wa.me/+5513991420002?text=%E2%9D%A4%20Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A"
-                    target="_blank" rel="noopener noreferrer">Manda um Zap!</a>
-            </li>
-            <li>
-                <a
-                    href="mailto:mateus.souza92@hotmail.com?subject=Vaga%20de%20Programador%20Jr&amp;body=Olá,%20gostei%20do%20seu%20perfil!">mateus.souza92@hotmail.com</a>
-            </li>
-            <li>
-                <a href="https://github.com/mat0357" target="_blank"
-                    rel="noopener noreferrer">github.com/mat0357</a>
-            </li>
-            <li>
-                <a href="https://linkedin.com/in/mateus-alcantara" target="_blank"
-                    rel="noopener noreferrer">linkedin.com/in/mateus-alcantara</a>
-            </li>
-        </ul>
-    </header>
-    <hr>
-    <main>
-        <section>
-            <h2>SOBRE</h2>
-            <img src="maxresdefault.jpg" alt="">
-            <p></p>
-            <br>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56593509.363964364!2d67.4692816011634!3d30.03130070479193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31508e64e5c642c1%3A0x951daa7c349f366f!2sChina!5e0!3m2!1sen!2sbr!4v1596154745502!5m2!1sen!2sbr"
-                    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
-        <form action="obrigado.html" method="GET">
-            <label for="">Empresa Interessada</label><br>
-            <input type="text"><br><br>
-            <label for="">Data de ínicio previsto</label><br>
-            <input type="date"><br><br>
-            <label for="">Cor do logo da empresa</label><br>
-            <input type="color">
-            <div>
-                <br>
-                <label for="">Sexo do recrutador</label><br>
-                <input type="radio" name="gender" id="male">
-                <label for="">Male</label><br>
-                <input type="radio" name="gender" id="female">
-                <label for="">female</label><br>
-                <input type="radio" name="gender" id="Other">
-                <label for="">Other</label><br>
-            </div>
-        </form>
-        </section>
-        <section>
-            <h2>SKILLS</h2>
-            <H3>Soft Skills</H3>
-            <ul>
-                <li>Liderança</li>
-                <li>Trabalho em equipe</li>
-                <li>Flexibilidade</li>
-            </ul>
-            <h3>Hard Skills</h3>
-            <ul>
-              <li>git</li>
-              <li>CSS</li>
-              <LI>Python</LI>
-            </ul>
-            <p></p>
-        </section>
-        <section>
-            <h2>FORMAÇÃO</h2>
-            <table>
-                <tr>
-                    <th>Month</th>
-                    <th>savings</th>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>2</td>
-                </tr>
-            </table>
-            <h3>
-                <ul>
-                    <h4></h4>
-                    <li>Front End</li>
-                    <ul>
-                        <li>PHP</li>
-                        <li>Node</li>
-                        <li>MongoDB</li>
-                    </ul>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="./index.html">
+                <img src="./assets/img/pink.PNG" alt="Logo" width="120" height="120"
+                class="mr-2">Pink Guy
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#top">Início <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#formacao">Formação</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carreira">Carreira</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#carreira">Carreira</a>
+                            <a class="dropdown-item" href="#contato">Contato</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
                 </ul>
-            </h3>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+    </header>
+   <main>
+        <ul>
+            <h3 class="formacao">Formação</h3>
             <p></p>
-        </section>
-        <section>
-            <h2>CONTEÚDO</h2>
+                <ol>
+                    <li>Publicidade - Universidade Presbiteriana Mackenzie</li>
+                    <li>Administração - Fundação Getúlio Vargas</li>
+                    <li>Big Data - ESPM</li>
+                </ol>
+            <P></P>
+            <h3 class="certificados">Certificados</h3>
+            <ol>
+                <li>University of Michigan - Python for Everybody</li>
+                <li>University of Illinois - Strategic Leadership and Management</li>
+            </ol>
             <p></p>
-        </section>
-    </main>
-    <hr>
-    <footer>
-        <p>Mateus Alcântara 2020 © | <a
-                href="mailto:mateus.souza92@hotmail.com?subject=Vaga%20de%20Programador%20Jr&amp;body=Olá,%20gostei%20do%20seu%20perfil!">mateus.souza92@hotmail.com</a>
-            | <a href="https://wa.me/+5513991420002?text=%E2%9D%A4%20Ol%C3%A1,%0D%0A%0D%0AAcessei%20o%20site%20agilmindset%20e%20gostaria%20de%20saber%20mais%20sobre%0D%0A"
-                target="_blank" rel="noopener noreferrer">Manda um Zap!</a></p>
-    </footer>
-
-
+            <h3 class="exp_prof">Experiência Profissional</h3>
+            <p></p>
+        </ul>
+   </main>
 </body>
-
-</html>

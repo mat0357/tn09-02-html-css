@@ -1,0 +1,24 @@
+/* RESETS */
+* {
+    /* Seletor universal - pega tudo mesmo */
+    margin: 0;
+    /* Margens definidas como 0 para tudo */
+    padding: 0;
+    /* Padding (margem interna) definido como 0 para tudo */
+    box-sizing: border-box;
+    /* As medidas dos elementos (caixas ou boxes) considera a borda e inclui o padding */
+    scroll-behavior: smooth;
+    /* Quando há links para áreas na mesma página, o scroll se dá de maneira suave */
+}
+
+main {
+    padding: 0 !important;
+    /* Por padrão o Bootstrap põe 15 px de padding na tag main, por isso estamos garantindo que padding será 0 (por causa do carrossel) */
+    margin-top: 55px;
+    /* A altura do header é 55 px, por isso estamos aplicando o margin top na tag main */
+}
+
+.formacao{
+    background-color: black;
+    color: white;
+}
